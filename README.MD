@@ -25,7 +25,7 @@ Dabara Programming Language v0.0.1
 
 ### Compilation
 ```bash
-git clone <repository-url>
+git clone https://github.com/feyroozecode/dabara_lang_project.git
 cd dabara_cli
 cargo build --release
 ```
