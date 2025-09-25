@@ -1,0 +1,56 @@
+# Rust build artifacts
+/target/
+/debug/
+/release/
+
+# Cargo files
+Cargo.lock
+.rustc_info.json
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Log files
+*.log
+
+# Temporary files
+/tmp/
+*.tmp
+*.temp
+
+# Cache files
+CACHEDIR.TAG
+
+# Rust specific
+**/*.rs.bk
+
+# Test artifacts
+/tests/target/
+
+# Documentation artifacts
+/doc/
+
+# Local configuration
+.env
+.env.local
+
+# Backup files
+*.bak
+*.backup
+
+# IDE specific
+.vscode/settings.json
+.idea/workspace.xml
