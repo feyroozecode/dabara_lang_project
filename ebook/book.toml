@@ -1,0 +1,49 @@
+[book]
+authors = ["Ahmad"]
+language = "fr"
+src = "src"
+title = "Apprendre Dabara - Guide Complet"
+description = "Guide d'apprentissage complet du langage de programmation Dabara en français"
+
+[build]
+build-dir = "book"
+create-missing = true
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+smart-punctuation = true
+mathjax-support = false
+copy-fonts = true
+no-section-label = false
+site-url = "/dabara-ebook/"
+git-repository-url = "https://github.com/votre-username/dabara"
+git-repository-icon = "fa-github"
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 2
+copy-js = true
+
+[output.html.print]
+enable = true
+
+[output.html.fold]
+enable = true
+level = 0
+
+[output.epub]
+cover-image = "cover.png"
+use-default-css = true
+optional = true
+
+[preprocessor.links]
+
+[preprocessor.index]
