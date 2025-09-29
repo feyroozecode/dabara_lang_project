@@ -22,7 +22,7 @@
 
 ### Option 1: Téléchargement des binaires pré-compilés (Recommandé)
 
-1. Allez sur la page [Releases](https://github.com/votre-username/dabara/releases)
+1. Allez sur la page [Releases](https://github.com/feyroozecode/dabara_lang_project/releases)
 2. Téléchargez le binaire correspondant à votre système :
    - **Linux (x86_64)** : `dabara-x86_64-unknown-linux-gnu.tar.gz`
    - **Linux (musl)** : `dabara-x86_64-unknown-linux-musl.tar.gz`
@@ -34,7 +34,7 @@
    ```bash
    # Linux/macOS
    tar -xzf dabara-*.tar.gz
-   
+
    # Windows (PowerShell)
    Expand-Archive dabara-*.zip
    ```
@@ -45,7 +45,7 @@
    sudo mv dabara /usr/local/bin/
    # ou
    mv dabara ~/.local/bin/
-   
+
    # Windows
    # Copiez dabara.exe dans un dossier de votre PATH
    ```
@@ -185,7 +185,7 @@ fara
   naɗa lambar2 = 5
   naɗa jimla = lambar1 ƙara lambar2
   naɗa bambanci = lambar1 rage lambar2
-  
+
   rubuta "Jimla: "
   rubuta jimla
   rubuta "Bambanci: "
@@ -209,7 +209,7 @@ fara
   nada sunan = "Ahmad"
   nada lambar = 42
   nada resultat = lambar kara 8
-  
+
   rubuta "Sannu " + sunan
   rubuta "Lambar: "
   rubuta resultat
