@@ -25,5 +25,4 @@ fara
   naɗa divi = lambar1 / lambar2
   rubuta "=== Lambar1 / Lambar2 ==="
   rubuta divi
-  
 ƙare
