@@ -1,5 +1,5 @@
 # TEST 001b: Listes et collections
-# Ce test montre l'utilisation des listes :
+# Ce test montre lutilisation des listes :
 # - Création de listes avec différents types
 # - Listes vides
 # - Affichage de listes
@@ -7,7 +7,7 @@
 fara
     # Listes avec différents types
     naɗa jerin_lambobi = [1, 2, 3, 4, 5]
-    naɗa jerin_sunaye = ["Ahmad", "Fatima", "Musa", "Aisha"]
+    naɗa jerin_sunaye = ["Mansour", "Fatima", "Musa", "Aisha"]
     naɗa jerin_gauraye = [gaskiya, karya, gaskiya, karya]
     
     rubuta "=== Test Listes ==="
