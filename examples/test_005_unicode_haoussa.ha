@@ -27,8 +27,8 @@ fara
     rubuta ɓangaren_lissafi
     
     # Opérations avec identifiants Unicode
-    naɗa jimlar_ƙarfi = ƙarfin ƙara ɓangaren_lissafi
-    naɗa jimlar_matsayi = matsayin1 ƙara matsayin2
+    naɗa jimlar_ƙarfi = ƙarfin + ɓangaren_lissafi
+    naɗa jimlar_matsayi = matsayin1 + matsayin2
     
     rubuta ""
     rubuta "=== Lissafi da Unicode ==="
@@ -54,7 +54,7 @@ fara
     rubuta ƙungiyar_ƴan_maza
     
     # Calcul complexe avec Unicode
-    naɗa lissafin_ƙungiya = ƙarfin ninka 2 ƙara matsayin1 ninka 3 rage ɓangaren_lissafi raba 5
+    naɗa lissafin_ƙungiya = ƙarfin * 2 + matsayin1 * 3 - ɓangaren_lissafi / 5
     rubuta ""
     rubuta "Lissafin ƙungiya (complex): "
     rubuta lissafin_ƙungiya

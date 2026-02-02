@@ -1,5 +1,5 @@
 # TEST 002: Entrée utilisateur (VERSION SIMPLIFIÉE)
-# Ce test montre lutilisation de karɓa pour lire les entrées utilisateur
+# Ce test montre l'utilisation de karɓa pour lire les entrées utilisateur
 # Version simplifiée pour tests automatisés
 
 fara
@@ -24,7 +24,7 @@ fara
     rubuta age_exemple
     
     # Calculs avec valeurs simulées
-    naɗa annee_naissance = 2024 rage age_exemple
+    naɗa annee_naissance = 2024 - age_exemple
     rubuta "Année de naissance estimée: "
     rubuta annee_naissance
     

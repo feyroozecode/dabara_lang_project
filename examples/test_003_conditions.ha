@@ -1,5 +1,5 @@
 # TEST 003: Conditions if/else
-# Ce test montre lutilisation des conditions :
+# Ce test montre l'utilisation des conditions :
 # - idan (if)
 # - amma (else)  
 # - ammaina (else if)
@@ -23,7 +23,6 @@ fara
     naɗa daraja = 85
     rubuta ""
     rubuta "Daraja: "
-    
     rubuta daraja
     
     idan daraja >= 90 {

@@ -27,15 +27,15 @@ fara
     rubuta ""
     
     # Calculs de base
-    naɗa jimla = lamba1 ƙara lamba2
-    naɗa bambanci = lamba1 rage lamba2
-    naɗa sakamako_ninka = lamba1 ninka lamba2
-    naɗa sakamako_raba = lamba1 raba lamba2
+    naɗa jimla = lamba1 + lamba2
+    naɗa bambanci = lamba1 - lamba2
+    naɗa sakamako_ninka = lamba1 * lamba2
+    naɗa sakamako_raba = lamba1 / lamba2
     
     rubuta "=== Sakamakon Lissafi ==="
-    rubuta "Jimla (ƙara): "
+    rubuta "Jimla (+): "
     rubuta jimla
-    rubuta "Bambanci (rage): "
+    rubuta "Bambanci (-): "
     rubuta bambanci
     rubuta "Ninka: "
     rubuta sakamako_ninka

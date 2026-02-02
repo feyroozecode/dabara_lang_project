@@ -11,7 +11,7 @@ fara
     rubuta "Ka rubuta sunan ka: "
     naɗa sunan = karɓa
     
-    # Demander l'âge
+    # Demander lâge
     rubuta "Ka rubuta shekarun ka: "
     naɗa shekarun = karɓa
     
